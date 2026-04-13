@@ -1,0 +1,38 @@
+{
+  "name": "reddit-engage-cli",
+  "version": "0.1.0",
+  "description": "CLI tool for agent-assisted Reddit discovery and engagement drafting.",
+  "type": "module",
+  "bin": {
+    "reddit-engage": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit",
+    "prepublishOnly": "npm run build",
+    "start": "node dist/index.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "README.md"
+  ],
+  "keywords": [
+    "reddit",
+    "cli",
+    "agent",
+    "engagement",
+    "discovery"
+  ],
+  "author": "Shubham",
+  "license": "MIT",
+  "dependencies": {
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
