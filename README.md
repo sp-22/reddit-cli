@@ -73,7 +73,7 @@ This project natively supports the **Vercel Agent Skills** ecosystem. By providi
 
 You can add this skill to your workspace via the Vercel Skills CLI (once published to a repository):
 ```bash
-npx skills add <your-github-username>/reddit-engage-cli
+npx skills add sp-22/reddit-cli
 ```
 
 ---
