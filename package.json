@@ -1,6 +1,6 @@
 {
   "name": "reddit-engage-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI tool for agent-assisted Reddit discovery and engagement drafting.",
   "type": "module",
   "bin": {
